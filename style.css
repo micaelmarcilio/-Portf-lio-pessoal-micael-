@@ -6,11 +6,13 @@ body {
     background-color: #f2f2f2;
 }
 
+/* Estilo do cabeçalho */
 header {
     background-color: #333;
     padding: 15px;
 }
 
+/* Estilo dos links do menu de navegação */
 nav a {
     color: white;
     text-decoration: none;
@@ -22,11 +24,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Estilo para o conteúdo principal */
 main {
     padding: 20px;
 }
 
-/* Estilo para formulários */
+/* Estilo para o formulário de contato */
 form {
     background-color: #fff;
     padding: 20px;
@@ -34,6 +37,7 @@ form {
     max-width: 500px;
 }
 
+/* Campos de entrada do formulário */
 input, textarea {
     width: 100%;
     margin-top: 10px;
@@ -43,6 +47,7 @@ input, textarea {
     border-radius: 4px;
 }
 
+/* Botão de envio */
 input[type="submit"] {
     background-color: #333;
     color: white;
